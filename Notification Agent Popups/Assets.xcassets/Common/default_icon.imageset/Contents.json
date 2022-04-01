@@ -1,7 +1,7 @@
 {
   "images" : [
     {
-      "filename" : "icon_512x512.png",
+      "filename" : "HeartlandLogo512x512_2x.png",
       "idiom" : "universal"
     },
     {
@@ -11,7 +11,7 @@
           "value" : "light"
         }
       ],
-      "filename" : "icon_512x512-1.png",
+      "filename" : "HeartlandLogo512x512_2x-1.png",
       "idiom" : "universal"
     },
     {
@@ -21,7 +21,7 @@
           "value" : "dark"
         }
       ],
-      "filename" : "icon_512x512-2.png",
+      "filename" : "HeartlandLogo512x512_2x-2.png",
       "idiom" : "universal"
     }
   ],

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1250"
+   LastUpgradeVersion = "1320"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B920D4B8265F8FC600437BE6"
-               BuildableName = "IBM Notifier Alert.app"
-               BlueprintName = "IBM Notifier Alert"
+               BuildableName = "HAEA Notifier Alert.app"
+               BlueprintName = "HAEA Notifier Alert"
                ReferencedContainer = "container:Notification Agent.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,8 +45,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B920D4B8265F8FC600437BE6"
-            BuildableName = "IBM Notifier Alert.app"
-            BlueprintName = "IBM Notifier Alert"
+            BuildableName = "HAEA Notifier Alert.app"
+            BlueprintName = "HAEA Notifier Alert"
             ReferencedContainer = "container:Notification Agent.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -62,8 +62,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B920D4B8265F8FC600437BE6"
-            BuildableName = "IBM Notifier Alert.app"
-            BlueprintName = "IBM Notifier Alert"
+            BuildableName = "HAEA Notifier Alert.app"
+            BlueprintName = "HAEA Notifier Alert"
             ReferencedContainer = "container:Notification Agent.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

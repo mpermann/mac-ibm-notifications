@@ -193,12 +193,12 @@ public final class HelpBuilder {
             Self.printConfigurationHelp()
             return
         }
-        print("\nIBM Notifier Help Page".bold().blue() + "\n")
+        print("\nHAEA Notifier Help Page".bold().blue() + "\n")
         print("You can use:\n     --help -popup - To show help page about the pop-up UI;\n     --help -banner - To show help page about the banner (temporary banner notification) UI;\n     --help -alert - To show help page about the alert (persistent banner notification) UI;\n     --help -onboarding - To show help page about the onboarding UI;\n     --help -configuration - To show help page about the configuration mode.\n")
     }
     
     static func printPopupHelp() {
-        print("\nIBM Notifier Popup UI".bold().blue() + "\n")
+        print("\nHAEA Notifier Popup UI".bold().blue() + "\n")
         var argumentsString = ""
         for argument in popupArguments {
             argumentsString += "[\(argument)] "
@@ -228,7 +228,7 @@ public final class HelpBuilder {
     }
     
     static func printBannerHelp() {
-        print("\nIBM Notifier Banner and Alert UIs".bold().blue() + "\n")
+        print("\nHAEA Notifier Banner and Alert UIs".bold().blue() + "\n")
         var argumentsString = ""
         for argument in bannerArguments {
             argumentsString += "[\(argument)] "
@@ -255,7 +255,7 @@ public final class HelpBuilder {
     }
     
     static func printOnboardingHelp() {
-        print("\nIBM Notifier Onboarding UI".bold().blue() + "\n")
+        print("\nHAEA Notifier Onboarding UI".bold().blue() + "\n")
         var argumentsString = ""
         for argument in onboardingArguments {
             argumentsString += "[\(argument)] "
@@ -277,7 +277,7 @@ public final class HelpBuilder {
     }
     
     static func printConfigurationHelp() {
-        print("\nIBM Notifier Configuration Mode".bold().blue() + "\n")
+        print("\nHAEA Notifier Configuration Mode".bold().blue() + "\n")
         print("Configuration mode:".bold().cyan())
         var configArgumentsString = ""
         for argument in configurableParameters {
@@ -291,7 +291,7 @@ public final class HelpBuilder {
     }
     
     static func printNoArgumentsPage() {
-        print("\nIBM Notifier".bold().blue() + "\n")
+        print("\nHAEA Notifier".bold().blue() + "\n")
         for index in specialArguments.indices {
             print("[\(specialArguments[index])] - \(specialArgumentsDescriptions[index])")
         }
@@ -318,6 +318,6 @@ public final class HelpBuilder {
     }
     
     static func printAppVersion() {
-        print("IBM Notifier version: \(Bundle.main.infoDictionary!["CFBundleShortVersionString"] as? String ?? "Unknown")".bold())
+        print("HAEA Notifier version: \(Bundle.main.infoDictionary!["CFBundleShortVersionString"] as? String ?? "Unknown")".bold())
     }
 }
